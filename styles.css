@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Open Sans";
+    background: rgb(60,138,162);
+    background: linear-gradient(90deg, #3c8aa2 0%, #98c8a7 24%, #4da7bc 57%, #71cad9 65%, #84b269 100%); 
+    background-size: cover;
+}
+
+header {
+    padding: 0.2em;
+    background: rgb(147,202,220);
+    background: linear-gradient(180deg, #93cadc 5%, rgba(16,96,122,1) 46%, rgba(60,137,162,1) 100%);
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 50%);
+    margin-bottom: 5em;
+}
+
+header h1 {
+    margin-left: 10em;
+    color: azure;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+header .logo {
+    height: 1.2em;
+    background: rgb(228,248,255);
+    background: linear-gradient(180deg, rgba(228,248,255,1) 45%, rgba(116,178,199,1) 50%, rgba(206,233,242,1) 80%); 
+    box-shadow: 1px 3px 3px 3px rgb(0 0 0 / 30%),
+                inset 1px 3px 3px 3px rgba(255, 255, 255, 0.5);
+    padding: 0.3em;
+    margin-right: 0.5em;
+    border-radius: 8em;
+}
+
+main {
+    width: 50em;
+    margin: 0 auto;
+}
+
+section {
+    border: 0px solid rgba(100, 100, 100, 1);
+    border-radius: 4px;
+    background: linear-gradient(
+      50deg,
+      rgba(255, 255, 255, 0.5) 12%,
+      rgba(255, 255, 255, 0.3) 77%
+    );
+    margin-top: 1em;
+    padding: 0.2em 2em;
+    background-blend-mode: screen;
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+section form {
+    margin: 0 auto;
+}
